@@ -11,7 +11,7 @@
 
 header {
   width: 100%;
-  height: 45vh; /* 35:65 between header and section */
+  height: 45vh; /* 45:55 between header and section */
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 1.5em 2.5em 0 2.5em;
   border-radius: 0 0 2em 2em;
