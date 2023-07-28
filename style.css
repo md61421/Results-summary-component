@@ -152,18 +152,18 @@ svg {
   .container {
     max-width: 800px;
     min-width: 40%;
-    height: 500px; /*height of class container, header and section relative to each other */
+    height: 500px;
     display: flex;
     margin: 0% 10%;
   }
 
   header {
     border-radius: 2em;
-    height: 500px; /*height of class container, header and section relative to each other */
+    height: 500px;
   }
 
   section {
-    height: 500px; /*height of class container, header and section relative to each other */
+    height: 500px;
   }
 
   .container {
