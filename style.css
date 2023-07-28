@@ -69,7 +69,7 @@ p {
 
 section {
   width: 100%;
-  height: 55vh; /* 35:65 between header and section */
+  height: 55vh; /* 45:55 between header and section */
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -152,18 +152,18 @@ svg {
   .container {
     max-width: 800px;
     min-width: 40%;
-    height: 500px;
+    height: 500px; /* height of class container, header and section are relative to each other */
     display: flex;
     margin: 0% 10%;
   }
 
   header {
     border-radius: 2em;
-    height: 500px;
+    height: 500px; /* height of class container, header and section are relative to each other */
   }
 
   section {
-    height: 500px;
+    height: 500px; /* height of class container, header and section are relative to each other */
   }
 
   .container {
