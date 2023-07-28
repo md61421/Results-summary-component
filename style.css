@@ -6,10 +6,12 @@
 }
 .container {
   width: 100%;
+  height: 100vh;
 }
 
 header {
   width: 100%;
+  height: 45vh; /* 35:65 between header and section */
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding: 1.5em 2.5em 0 2.5em;
   border-radius: 0 0 2em 2em;
@@ -67,7 +69,11 @@ p {
 
 section {
   width: 100%;
+  height: 55vh; /* 35:65 between header and section */
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
@@ -77,6 +83,7 @@ h1 {
 
 .tab {
   width: 100%;
+  height: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,8 +141,7 @@ svg {
 }
 
 @media screen and (min-width: 700px) {
-
-  body{
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,18 +149,24 @@ svg {
     height: 100vh;
   }
 
-  .container{
+  .container {
     max-width: 800px;
     min-width: 40%;
+    height: 500px; /*height of class container, header and section relative to each other */
     display: flex;
     margin: 0% 10%;
   }
 
-  header{
+  header {
     border-radius: 2em;
+    height: 500px; /*height of class container, header and section relative to each other */
   }
 
-  .container{
+  section {
+    height: 500px; /*height of class container, header and section relative to each other */
+  }
+
+  .container {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
     border-radius: 2em;
   }
