@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 1.5em 2.5em 0 2.5em;
+  border-radius: 0 0 2em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result,
+.score,
+p {
+  margin-bottom: 1.5em;
+  color: #c4c1ff;
+}
+
+.result {
+  color: hsla(0, 0%, 100%, 0.582);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.score {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  color: white;
+  font-weight: 700;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.score_count {
+  font-size: 4em;
+}
+
+.out_off {
+  color: #7f73fb;
+}
+
+.great {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 700;
+}
+
+section {
+  width: 100%;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 1.25em;
+  padding-bottom: 1em;
+}
+
+.tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.tab > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 5%);
+}
+
+#memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 5%);
+}
+
+#verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 5%);
+}
+
+#visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 5%);
+}
+
+.marks {
+  color: black;
+}
+
+.total {
+  color: #919b9d;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #303b59;
+  color: white;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+svg {
+  margin-right: 0.5em;
+}
+
+@media screen and (min-width: 700px) {
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container{
+    max-width: 800px;
+    min-width: 40%;
+    display: flex;
+    margin: 0% 10%;
+  }
+
+  header{
+    border-radius: 2em;
+  }
+
+  .container{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    border-radius: 2em;
+  }
+}
