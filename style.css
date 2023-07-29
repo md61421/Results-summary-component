@@ -20,6 +20,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.50);
 }
 
 .result,
@@ -49,6 +50,7 @@ p {
   font-weight: 700;
   width: 10em;
   height: 10em;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
 }
 
@@ -159,6 +161,8 @@ svg {
 
   header {
     border-radius: 2em;
+    /* box-shadow: none; */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
     height: 500px; /* height of class container, header and section are relative to each other */
   }
 
